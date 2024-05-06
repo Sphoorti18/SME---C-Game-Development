@@ -58,6 +58,45 @@
         <section id="functions">
             <h2>Functions</h2>
             <p>Functions are blocks of code that perform a specific task.</p>
+            <h3>Syntax : </h3>
+            <p>#include <iostream>
+using namespace std;
+
+int main() {
+    // int is a keyword
+    int myInt = 5;
+
+    // if is a keyword
+    if (myInt == 5) {
+        cout << "myInt is equal to 5" << endl;
+    }
+
+    // class is a keyword
+    class MyClass {
+        // Class definition
+    };
+
+    // return is a keyword
+    return 0;
+}
+    `.trim();
+
+    // Populate functions section with code example
+    var functionsCode = document.getElementById('functionsCode');
+    functionsCode.textContent = `
+#include <iostream>
+using namespace std;
+
+// Function declaration
+void greet() {
+    cout << "Hello, world!" << endl;
+}
+
+int main() {
+    // Function call
+    greet();
+    return 0; //you can also remove this coz this was used by old folks
+}</p>
             <pre><code id="functionsCode"></code></pre>
         </section>
     </main>
